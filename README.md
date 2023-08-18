@@ -4,29 +4,29 @@ This is the reference documentation to correctly execute stored procedures of th
 
 ## Get all outstanding issues (all products)
 - SP: dbo.GetAllOutstandingIssuesForAllProducts
-- Param 1: StatusId, value: No value.
+- Param 1: StatusId, no value to put through
 
 ## Get all outstanding issues for a product (all versions)
 - SP: dbo.GetAllOutstandingIssuesForAProduct
-- Param 1: StatusId, value: No value.
+- Param 1: StatusId, no value to put through
 - Param 2: ProductId, value: 1
 
 ## Get all outstanding issues for a product (single version)
 - SP: dbo.GetAllOutstandingIssuesForAProductAndASingleVersion
-- Param 1: StatusId, value: No value.
+- Param 1: StatusId, no value to put through
 - Param 2: ProductId, value: 1
 - Param 3: VersionId, value: 4
 
 ## Get all outstanding issues within date range for a product (all versions)
 - SP: dbo.GetAllOutstandingIssuesWithinDateRangeForAProduct
-- Param 1: StatusId, value: No value.
+- Param 1: StatusId, no value to put through
 - Param 2: ProductId, value: 1
 - Param 3: Date1, value: 2016
 - Param 4: Date2, value: 2018
 
 ## Get all outstanding issues within date range for a product (single version)
 - SP: dbo.GetAllOutstandingIssuesWithinDateRangeForAProductAndASingleVersion
-- Param 1: StatusId, value: No value.
+- Param 1: StatusId, no value to put through
 - Param 2: ProductId, value: 1
 - Param 3: VersionId, value: 4
 - Param 4: Date1, value: 2015
@@ -66,29 +66,29 @@ This is the reference documentation to correctly execute stored procedures of th
 
 ## Get all resolved issues (all products)
 - SP: dbo.GetAllResolvedIssuesForAllProducts
-- Param 1: StatusId, value: No value.
+- Param 1: StatusId, no value to put through
 
 ## Get all resolved issues for a product (all versions)
 - SP: dbo.GetAllResolvedIssuesForAProduct
-- Param 1: StatusId, value: No value.
+- Param 1: StatusId, no value to put through
 - Param 2: ProductId, value: 1
 
 ## Get all resolved issues for a product (single version)
 - SP: dbo.GetAllResolvedIssuesForAProductAndASingleVersion
-- Param 1: StatusId, value: No value.
+- Param 1: StatusId, no value to put through
 - Param 2: ProductId, value: 1
 - Param 3: VersionId, value: 4
 
 ## Get all resolved issues within date range for a product (all versions)
 - SP: dbo.GetAllResolvedIssuesWithinDateRangeForAProduct
-- Param 1: StatusId, value: No value.
+- Param 1: StatusId, no value to put through
 - Param 2: ProductId, value: 1
 - Param 3: Date1, value: 2016
 - Param 4: Date2, value: 2018
 
 ## Get all resolved issues within date range for a product (single version)
 - SP: dbo.GetAllResolvedIssuesWithinDateRangeForAProductAndASingleVersion
-- Param 1: StatusId, value: No value.
+- Param 1: StatusId, no value to put through
 - Param 2: ProductId, value: 1
 - Param 3: VersionId, value: 4
 - Param 4: Date1, value: 2015
